@@ -1,0 +1,29 @@
+#myoverlay	{position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:998;
+		background:#000;
+		margin:0 auto;}
+		
+#mylightbox	{position:fixed;
+		border:10px solid #fff;
+		z-index:999;
+		margin:0 auto;
+		}
+		
+#myligthbox img	{width:200px;
+		height:200px;}	
+				
+
+.mylightbox	{width:80px;
+		border:3px solid #333;
+		}
+		
+.mylightbox img {height:200px;}		
+
+.mylightbox:hover,
+#mylightbox img:hover
+		{cursor:pointer;
+		}
